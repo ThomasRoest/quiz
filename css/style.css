@@ -1,52 +1,37 @@
-
-
+/*sass input.scss output.css
+sass --watch input.scss:output.css
+*/
 html,
 body {
   height: 100%;
   background: #ccc;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
-
-
-
-
+  /* The html and body elements cannot have any padding or margin. */ }
 
 /*PAGE SECTIONS//////////////////////////////////////////////////*/
-
 .navbar {
   height: 100px;
   background-color: #fff;
   color: #000;
-  margin: 0;
-}
+  margin: 0; }
 
 #wrap {
   min-height: 100%;
   height: auto;
   margin: 0 auto -70px;
-  padding: 0 0 70px;
-}
+  padding: 0 0 70px; }
 
 .container-main {
   border: 3px solid red;
   width: 100%;
   padding: 0 0px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .main-content {
   text-align: center;
   background-color: #f2f2f2;
   border: 2px solid blue;
-  margin: 0 20px;
-}
-
+  margin: 0 20px; }
 
 .footer {
   height: 70px;
-  background-color: #fff;
-}
-
-
-
+  background-color: #fff; }
