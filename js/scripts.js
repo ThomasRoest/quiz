@@ -1,6 +1,7 @@
  $(document).ready(function(){
  	$('.start-game').on('click', function(){
- 		$('.main-content').css({'background-color': 'yellow'});
+ 		$('.game-start').fadeOut("fast");
+ 		$('.first-question').toggleClass('.visible');
  	});
  });
 
