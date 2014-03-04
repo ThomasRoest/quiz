@@ -9,6 +9,24 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+
+
+
+/*LISTS*/
+
+.list-answers {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*PAGE SECTIONS//////////////////////////////////////////////////*/
 
 .navbar {
@@ -30,6 +48,7 @@ body {
   width: 100%;
   padding: 0 0px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .main-content {
@@ -46,12 +65,12 @@ body {
 }
 
 
-
-.first-question {
+.hide {
   visibility: hidden;
 }
 
 
-.visible {
-  visibility: visible;
+.input-section {
+  padding: 25px;
 }
+

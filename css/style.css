@@ -7,6 +7,10 @@ body {
   background: #ccc;
   /* The html and body elements cannot have any padding or margin. */ }
 
+/*LISTS*/
+.list-answers {
+  list-style: none; }
+
 /*PAGE SECTIONS//////////////////////////////////////////////////*/
 .navbar {
   height: 100px;
@@ -24,7 +28,8 @@ body {
   border: 3px solid red;
   width: 100%;
   padding: 0 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .main-content {
   text-align: center;
@@ -36,8 +41,8 @@ body {
   height: 70px;
   background-color: #fff; }
 
-.first-question {
+.hide {
   visibility: hidden; }
 
-.visible {
-  visibility: visible; }
+.input-section {
+  padding: 25px; }
