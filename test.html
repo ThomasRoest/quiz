@@ -18,36 +18,21 @@
   <body>
     <div id="wrap">
       <div class="navbar navbar-default">
-        <h1>Quiz!</h1>
       </div>
 
       <!-- Begin page content -->
       <div class="container-main">
 
-        <div class="start-game">
-          <p>Click to start the game!</h1>
-          <button class="start">START</button>
-        </div>
+          <form name="form1">
+            option 1: <input type="radio" id='a1' value="answer1" name="question1" checked="true"><br>
+            option 2: <input type="radio" id='a2' value="answer2" name="question1"><br>
+            option 3: <input type="radio" id='a3' value="answer3" name="question1"><br>
+            option 4: <input type="radio" id='a4' value="answer4" name="question1"><br>
+            option 5: <input type="radio" id='a5' value="answer5" name="question1"><br>
+                    
+            <input type="button" value="Submit" onclick="getAnswer();">
 
-
-        <div class="incorrect hide">
-          <p>I'm sorry but that is not correct, the right answer is 9!</p>
-        </div>
-
-        <div class="question1 hide">
-          <p>How many planets are there in our solar system</p>
-          <ul class="list-answers">
-            <li><input type="radio" check="checked">6</input></li>
-            <li><input type="radio">7</input></li>
-            <li><input type="radio">8</input></li>
-            <li><input type="radio">9</input></li>
-          
-          </ul>
-          <button>Submit</button>
-        </div>
-
-
-
+          </form>
 
 
       </div><!--end container-->
@@ -59,7 +44,7 @@
       </div>
     </div>
    <script src="js/jquery-1.11.0.min.js"></script>
-   <script src="js/scripts.js"></script>
+   <script src="js/forms.js"></script>
    
   </body>
 </html>
